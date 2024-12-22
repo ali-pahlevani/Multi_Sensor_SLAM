@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:property name="base_length" value="0.800" />
+  <xacro:property name="base_width" value="0.600" />
+  <xacro:property name="base_height" value="0.100" />
+  <xacro:property name="base_mass" value="3" />
+
+  <xacro:property name="wheel_radius" value="0.06" />
+  <xacro:property name="wheel_width" value="0.04" />
+  <xacro:property name="wheel_pos_x" value="0.25" />
+  <xacro:property name="wheel_pos_y" value="0.25" />
+  <xacro:property name="wheel_pos_z" value="-0.03" />
+  <xacro:property name="wheel_mass" value=".3" />
+  <xacro:property name="wheel_torque" value="60" />
+
+  <xacro:property name="laser_pos_x" value="0.320" />
+  <xacro:property name="laser_pos_y" value="-0.220" />
+  <xacro:property name="laser_pos_z" value="0.070" />
+  <xacro:property name="laser_rpy_x" value="0" />
+  <xacro:property name="laser_rpy_y" value="0" />
+  <xacro:property name="laser_rpy_z" value="3.1416" />
+  <xacro:property name="laser_update_rate" value="30" />
+  <xacro:property name="laser_field_of_view" value="3.1416" />
+  <xacro:property name="laser_range_min" value="0.1" />
+  <xacro:property name="laser_range_max" value="15.0" />
+  <xacro:property name="laser_samples" value="180" />
+  <xacro:property name="laser_resolution" value="1" />
+
+  <xacro:property name="stereo_camera_pos_x" value="0.415" />
+  <xacro:property name="stereo_camera_pos_y" value="0" />
+  <xacro:property name="stereo_camera_pos_z" value="0.0365" />
+  <xacro:property name="stereo_camera_rpy_x" value="0" />
+  <xacro:property name="stereo_camera_rpy_y" value="0" />
+  <xacro:property name="stereo_camera_rpy_z" value="0" />
+  <xacro:property name="stereo_camera_baseline" value="0.1" />
+  <xacro:property name="stereo_camera_update_rate" value="20" />
+  <xacro:property name="stereo_camera_width" value="640" />
+  <xacro:property name="stereo_camera_height" value="480" />
+  <xacro:property name="stereo_camera_fov" value="1.047" />
+  <xacro:property name="stereo_camera_near" value="0.1" />
+  <xacro:property name="stereo_camera_far" value="3" />
+
+</robot>
