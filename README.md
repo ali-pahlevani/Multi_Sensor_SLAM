@@ -14,5 +14,22 @@ Also, there are two more packages involved (which I made them):
 1. amr_main as the base package for running everything together,
 2. laser_fusion which contains necessary 2D-LiDAR fusion code (to fuse the measurements of different 2D-LiDARs).
 
-   
+* I'm still working on enhancing it. It needs some corrections yet. Also, some of the parts may go into problem which will be solved in the near future (e.g., using Kinematic-ICP algorithm).
+
+---
+## Main Files (To adapt the work to your own needs)
+
+
+---
+## Demo
+![rtab](https://github.com/user-attachments/assets/c7331aba-0e84-4f97-8646-b01320dc235a)
+
+---
+## Prerequisites
+
+
+---
+## Installation and Usage
+
+
 ## If you have any question about any part, please feel free to ask! ## 
