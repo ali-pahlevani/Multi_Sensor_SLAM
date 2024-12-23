@@ -8,9 +8,9 @@ In this repository, I have combined different frameworks to create a functional 
 
 
 For my AMR development, I’ve selected the following **Open-Source Repositories**:
-1. **[Linorobot2](https://github.com/linorobot/linorobot2?tab=readme-ov-file)** as the base repository for creating my AMR,
-2. **[RTAB-Map](https://github.com/introlab/rtabmap)** as the main framework for sensor fusion and SLAM,
-3. **[Kinematic-ICP](https://github.com/PRBonn/kinematic-icp)** for future work on enhancing ICP-based odometry,
+1. **[Linorobot2](https://github.com/linorobot/linorobot2?tab=readme-ov-file)** as the base repository for **creating my AMR**,
+2. **[RTAB-Map](https://github.com/introlab/rtabmap)** as the main framework for **sensor fusion and SLAM**,
+3. **[Kinematic-ICP](https://github.com/PRBonn/kinematic-icp)** for future work on **enhancing ICP-based odometry**,
 
 Additionally, there are two more packages I created:
 1. **amr_main** as the base package for running everything together,
