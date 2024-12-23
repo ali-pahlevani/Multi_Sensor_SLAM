@@ -1,24 +1,24 @@
 # Multi Sensor SLAM
 
-**A framework to work with Industrial AMR and perform SLAM using various sensors in challenging environments**
+**A framework to work with Industrial AMRs and perform SLAM using various sensors in challenging environments**
 
-In this repository, I have combined different frameworks to come up with a functional AMR, performing Robust SLAM in smart factories and similar environment:
+In this repository, I have combined different frameworks to create a functional AMR that performs **Robust SLAM** in smart factories and similar environments:
 
 ![rtab](https://github.com/user-attachments/assets/36dca959-9468-4c7c-ad9a-43100fb4f004)
 
-1. Linorobot2 as the base repo for creating my AMR,
-2. RTAB-Map as the main framework for sensor fusion and SLAM,
-3. Kinematic-ICP for the future works on enhancing ICP-Based odometry,
+1. **[Linorobot2](https://github.com/linorobot/linorobot2?tab=readme-ov-file)** as the base repository for creating my AMR,
+2. **[RTAB-Map](https://github.com/introlab/rtabmap)** as the main framework for sensor fusion and SLAM,
+3. **[Kinematic-ICP](https://github.com/PRBonn/kinematic-icp)** for future work on enhancing ICP-based odometry,
 
-Also, there are two more packages involved (which I made them):
-1. amr_main as the base package for running everything together,
-2. laser_fusion which contains necessary 2D-LiDAR fusion code (to fuse the measurements of different 2D-LiDARs).
+Additionally, there are two more packages I created:
+1. **amr_main** as the base package for running everything together,
+2. **laser_fusion** which contains the necessary 2D LiDAR fusion code (to fuse measurements from different 2D LiDARs).
 
-* I'm still working on enhancing it. It needs some corrections yet. Also, some of the parts may go into problem which will be solved in the near future (e.g., using Kinematic-ICP algorithm).
+* I’m still working on enhancing this project. It works well, but still needs some improvements to incorporate additional features (e.g., using **Kinematic-ICP** alongside **RTAB-Map**).
 
 ---
-## Main Files (To adapt the work to your own needs)
-1. RTAB-Map parameter file: In this file, not only can you change the RTAB-Map parameters, also you can set which 2D-LiDAR you want to use (**front**, **back**, **all**) and also, which Stereo Camera (**front**, **back**, **both** (Not available yet))
+## Main Files (To adapt the work to your needs)
+1. **RTAB-Map parameter file**: In this file, you can change the RTAB-Map parameters. You can also set **which** 2D LiDAR you want to use (**front, back, all**) and **which** Stereo Camera (**front, back, both** -> (Not available yet)).
    
    ```bash
    code ~/Multi_Sensor_SLAM/src/rtabmap_ros/rtabmap_launch/launch/rtabmap.launch.py
@@ -43,7 +43,7 @@ Also, there are two more packages involved (which I made them):
 ---
 ## Installation and Usage
 
-- This project needs **ROS 2** (Recommended: **ROS 2 Humble**)
+- This project requires **ROS 2** (**Recommended: ROS 2 Humble**)
 
 1. **Clone the Repository**:
    ```bash
