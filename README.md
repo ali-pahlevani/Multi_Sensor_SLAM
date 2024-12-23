@@ -22,7 +22,7 @@ Also, there are two more packages involved (which I made them):
 
 ---
 ## Demo
-![rtab](https://github.com/user-attachments/assets/c7331aba-0e84-4f97-8646-b01320dc235a)
+
 
 ---
 ## Prerequisites
