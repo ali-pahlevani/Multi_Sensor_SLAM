@@ -1,4 +1,4 @@
-# Multi_Sensor_SLAM
+# Multi Sensor SLAM
 ..................................
 
 
