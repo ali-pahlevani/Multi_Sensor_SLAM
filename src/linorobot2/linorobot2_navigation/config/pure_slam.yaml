@@ -1,0 +1,35 @@
+# General Parameters
+use_sim_time: true  # Use simulation time if running in Gazebo or a simulation environment
+slam_mode: "mapping"  # Mapping mode (building a map from scratch)
+map_file_name: ""  # Leave blank for creating a new map
+
+# Sensor Input
+scan_topic: "/radar/combined_scan"  # Topic remapped in the launch file
+laser_min_range: 0.05  # Minimum range of radar sensors
+laser_max_range: 30.0  # Maximum range of radar sensors
+max_laser_skew: 0.001  # Maximum time skew between scans
+
+# Odometry Settings (disabled for pure SLAM)
+odom_frame: "none"  # This ensures odometry is not used
+map_frame: "map"
+base_frame: "base_link"  # Robot base frame (defined in your tf tree)
+odom_topic: ""  # No odometry topic provided (ensures odometry is ignored)
+
+# Optimization Parameters
+optimization_frequency: 1.0  # Frequency of pose graph optimization
+loop_closure_threshold: 0.8  # Loop closure detection threshold
+max_laser_range: 30.0  # Consistent with laser_max_range
+loop_search_window: 15.0  # Search window for loop closure in meters
+
+# Map Parameters
+resolution: 0.05  # Resolution of the map in meters per pixel
+max_submaps: 100  # Maximum number of submaps
+submap_threshold: 20.0  # Threshold for creating a new submap
+map_update_interval: 2.0  # Interval for updating the map in seconds
+
+# Memory and CPU Limits
+use_scan_matching: true  # Use scan matching for localization and mapping
+max_laser_points: 2000  # Max number of laser points processed per scan
+
+# Logging and Debugging
+verbose: false  # Disable verbose logging for performance
