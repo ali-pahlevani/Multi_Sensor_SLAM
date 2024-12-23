@@ -13,8 +13,8 @@ For my AMR development, I’ve selected the following **Open-Source Repositories
 3. **[Kinematic-ICP](https://github.com/PRBonn/kinematic-icp)** for future work on **enhancing ICP-based odometry**,
 
 Additionally, there are two more packages I created:
-1. **amr_main** as the base package for running everything together,
-2. **laser_fusion** which contains the necessary 2D LiDAR fusion code (to fuse measurements from different 2D LiDARs).
+1. **amr_main** as the base package for running **everything together**,
+2. **laser_fusion** which contains the necessary **2D-LiDAR fusion node** (to fuse measurements from different 2D LiDARs).
 
 * I’m still working on enhancing this project. It works well, but still needs some improvements to incorporate additional features (e.g., using **Kinematic-ICP** alongside **RTAB-Map**).
 
