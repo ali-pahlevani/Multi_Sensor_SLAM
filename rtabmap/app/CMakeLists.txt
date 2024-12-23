@@ -1,6 +1,0 @@
-
-IF(ANDROID)
-   ADD_SUBDIRECTORY( android )
-ELSE()
-   ADD_SUBDIRECTORY( src )
-ENDIF()
