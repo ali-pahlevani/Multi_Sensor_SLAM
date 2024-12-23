@@ -25,7 +25,7 @@ Additionally, there are two more packages I created:
    ```bash
    code ~/Multi_Sensor_SLAM/src/rtabmap_ros/rtabmap_launch/launch/rtabmap.launch.py
 
-2. Change the Robot and Sensors' parameters or Add/Remove them:
+2. Change the Robot and Sensors' **parameters** or **Add/Remove** them:
    ```bash
    code ~/Multi_Sensor_SLAM/src/linorobot2/linorobot2_description/urdf/4wd_properties.urdf.xacro
    code ~/Multi_Sensor_SLAM/src/linorobot2/linorobot2_description/urdf/robots/4wd.urdf.xacro
@@ -33,7 +33,7 @@ Additionally, there are two more packages I created:
    code ~/Multi_Sensor_SLAM/src/linorobot2/linorobot2_description/urdf/sensors/stereo_camera.urdf.xacro
    code ~/Multi_Sensor_SLAM/src/linorobot2/linorobot2_description/urdf/sensors/imu.urdf.xacro
 
-3. 2D-LiDAR fusion algorithm:
+3. 2D-LiDAR **fusion** algorithm:
    ```bash
    code ~/Multi_Sensor_SLAM/src/laser_fusion/laser_fusion/combine_laser_measurements.py
 
@@ -41,6 +41,7 @@ Additionally, there are two more packages I created:
 ## Demo
 ![amr_rtab_gif_2](https://github.com/user-attachments/assets/d0d5b713-1a9e-42c4-9ad8-94e54d0f8753)
 
+* In this demo, I have used only the **front LiDAR** (not both). I have also used the **front stereo camera**. Here, I'm performing **VIO** and **ICP odometry**, as well as **visual** and **laser** **loop closures** to create a **2D map**. Additionally, RTAB-Map uses **graph-based SLAM**.
 
 ---
 ## Installation and Usage
