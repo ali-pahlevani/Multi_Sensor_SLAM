@@ -36,7 +36,7 @@ Additionally, there are two more packages I created:
 3. 2D-LiDAR **fusion** algorithm:
    ```bash
    code ~/Multi_Sensor_SLAM/src/laser_fusion/laser_fusion/combine_laser_measurements.py
-
+ 
 ---
 ## Demo
 ![amr_rtab_gif_2](https://github.com/user-attachments/assets/d0d5b713-1a9e-42c4-9ad8-94e54d0f8753)
