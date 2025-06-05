@@ -52,7 +52,7 @@ Additionally, there are two more packages I created:
    ```bash
    git https://github.com/ali-pahlevani/Multi_Sensor_SLAM.git
    cd Multi_Sensor_SLAM
-
+ 
 2. **Install the required Dependencies**:
    ```bash
    rosdep update && rosdep install --from-path src --ignore-src -y
